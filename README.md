@@ -10,6 +10,6 @@ To reduce the time and resources the MATLAB code used, I modified the real time 
 function instead of ASCII allowing the MATLAB code to skip the conversion step.
 
 To optimize the CPU usage and time of the software tools, I implemented multiprocessing to split the tasks among 4 different CPUs and
-managed to reduce the computation time of 10 hours (roughly a full observing night of incoming data) data from 20-23 mins to 4 - 8 seconds.
+managed to reduce the computation time of 10 hours (roughly a full observing night of incoming data) of data from 20-23 mins to 4 - 8 seconds.
 
 PYQTGraph was used to graph the data points in real time. 
